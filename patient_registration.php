@@ -84,25 +84,25 @@
 
 		<form  id="reg_form" action="patient_reigstration.php" method="POST">
 
-			<input class="inputField" type="text"  name="fullname" placeholder="Full Name">
+			<input class="inputField" type="text" required  name="fullname" placeholder="Full Name">
 			<!-- <span class="errorMsg"><?php echo $NameError; ?></span> -->
 
-			<input class="inputField" type="numeric"  name="contact" placeholder="Contact">
+			<input class="inputField" type="numeric" required name="contact" placeholder="Contact">
 			<!-- <span class="errorMsg"></span> -->
 
-            <input class="inputField" type="text"  name="vaccination_status" placeholder="Vaccination Status">
+            <input class="inputField" type="text" required name="vaccination_status" placeholder="Vaccination Status">
 			<!-- <span class="errorMsg"></span> -->
 
-            <input class="inputField" type="text"  name="blood_group" placeholder="Blood Group">
+            <input class="inputField" type="text" required name="blood_group" placeholder="Blood Group">
 			<!-- <span class="errorMsg"></span> -->
 
-			<input class="inputField" type="email"  name="mail" placeholder="E-mail">
+			<input class="inputField" type="email" required name="mail" placeholder="E-mail">
 			<!-- <span class="errorMsg"></span> -->
 
 			<input class="inputField" type="text" required onfocus="(this.type='date')" name="dob" placeholder="Date of Birth">
 			<!-- <span class="errorMsg"></span> -->
 
-			<input class="inputField" type="password"  name="pass" placeholder="Password">
+			<input class="inputField" type="password" required name="pass" placeholder="Password">
 			<!-- <span class="errorMsg"></span> -->
 
 			<br><input id="regBtn" class="submit_btn" type="Submit" name="reg" value="Register">

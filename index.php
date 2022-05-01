@@ -86,6 +86,10 @@
         </div>
         <img class="about_pic" src="skins/us.png">
     </section>
+	<br>
+	<br>
+	<br>
+	<br>
 
 	<section id="query">
 		
