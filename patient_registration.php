@@ -19,7 +19,7 @@
 
 <body>
     <div class="regTop">
-		<!-- <img class="logo" src="skins/logo.png"> -->
+		<img class="logo" src="skins/logo.png">
 		<p class="txt">PATIENT REGISTRATION</p>
 	</div>
 
